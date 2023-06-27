@@ -6,15 +6,10 @@
 package paquete01;
 
 import java.util.ArrayList;
-
-/**
- *
- * @author reroes
- */
-public class Ejecutor02 {
-    public static void main(String[] args) {
-        
-        String[][] datos001 = {{"Niños 01", "2.00", "1", "1.5"},
+//public class Ejecutor02 {
+   // public static void main(String[] args) {
+        /*
+       // String[][] datos001 = {{"Niños 01", "2.00", "1", "1.5"},
             {"Niños 02", "3.00", "1", "1.5"},
             {"Niños 03", "2.00", "2", "0.5"},
          };
@@ -48,17 +43,12 @@ public class Ejecutor02 {
         // Fin de solución
         
         
-        for (int i = 0; i < lista.size(); i++) {
-            lista.get(i).establecerValorMenu();
-        }
-        
+      //  for (int i = 0; i < lista.size(); i++) {
+        //    lista.get(i).establecerValorMenu();
+        /*
         // Un objeto de tipo Cuenta
-        Cuenta miCuenta = new Cuenta("Luis Andrade", lista, 10);
-        miCuenta.establecerSubtotal();
-        miCuenta.establecerValorCancelar();
-        System.out.printf("%s\n", miCuenta);
-        
+       // Cuenta miCuenta = new Cuenta("Luis Andrade", lista, 10);
+       // miCuenta.establecerSubtotal();
+     //  miCuenta.establecerValorCancelar();
+      //  System.out.printf("%s\n", miCuenta);
 
-
-    }
-}

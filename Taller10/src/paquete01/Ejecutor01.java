@@ -4,22 +4,24 @@
  * and open the template in the editor.
  */
 package paquete01;
-
-/**
- *
- * @author reroes
- */
 public class Ejecutor01 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+        public static void main(String[] args) {
+            MenuNinos menuNinos1 = new MenuNinos("Tallarines rojos", 10.0, 8.0, 2.0, 1.5);
+            MenuNinos menuNinos2 = new MenuNinos("Milanesa", 12.0, 9.0, 2.5, 1.0);
+            MenuEconomico menuEconomico1 = new MenuEconomico("Comida del dia", 7.0, 12.0, 6.0);
+            MenuDia menuDia1 = new MenuDia("Chaufa", 18.0, 15.0, 8.0, 3.5);
+            MenuAcarta menuAcarta1 = new MenuAcarta("Marucahn", 20.0, 40.0, 8.5, 3.5, 9.0);
+            Cuenta cuenta = new Cuenta("Blanca", 22.0) {
+            };
+            cuenta.agregarMenu(menuNinos1);
+            cuenta.agregarMenu(menuNinos2);
+            cuenta.agregarMenu(menuEconomico1);
+            cuenta.agregarMenu(menuDia1);
+            cuenta.agregarMenu(menuAcarta1);
+            System.out.println(cuenta.toString());
+        }
     }
-    
-    
-}
+
 // lo que debe presentar
 /*
 Factura
